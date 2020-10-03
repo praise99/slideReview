@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   /* #25B7D3*/
+}
+.container{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(245, 243, 243);
+    margin-top: -2rem;
+    padding-bottom: 0.8rem;
+}
+.title{
+    font-weight: 400;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+}
+hr{
+    width: 7%;
+    border: 1px solid #25B7D3;
+    margin-top: -2rem;
+}
+.card{
+    padding-top: 4rem;
+    background-color: white;
+    width: 70%;
+    margin:2rem auto;
+    position: relative;
+    border-radius: 13px;
+}
+.circle{
+    width: 15%;
+    height: 9rem;
+    background-color: #25B7D3;
+    color: #11333a;
+    margin:-2.7rem auto;
+    border-radius: 23rem;
+}
+.second-circle{
+    width: 15.2%;
+    border-radius: 23rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 24.9rem;
+}
+.icon-apos{
+    position: absolute;
+    top: 2.3rem;
+    left: 23.5rem;
+}
+.name{
+    padding-top: 3rem;
+    font-size:1.5rem;
+    letter-spacing: 6px;
+    font-weight: 400;
+}
+.job{
+    font-size: 1.2rem;
+    color: #25B7D3;
+    margin-top: -1rem;
+}
+.desc{
+    padding-top:-2.9rem ;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-weight: 400;
+}
+.left-icon{
+    width: 4.5%;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.right-icon{
+    width: 4.5%;
+}
+.sup-btn{
+    margin-top: 1rem;
+    padding: 0.6rem;
+    border-radius: 11px;
+    color: #25B7D3;
+    border: 1px solid #25B7D3 ;
+    background-color: white;
+    margin-bottom: 3rem;
+}
+
