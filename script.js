@@ -1,4 +1,4 @@
-var slide_index = 1;  
+let slide_index = 1;  
 displaySlides(slide_index);  
 
 function nextSlide(n) {  
@@ -8,12 +8,13 @@ function nextSlide(n) {
 function currentSlide(n) {  
     displaySlides(slide_index = n);  
 }  
-
+//function to displya the slides
 function displaySlides(n) {  
-    var i;  
-    var slides = document.getElementsByClassName("showSlide");  
+    let i;  
+    let slides = document.getElementsByClassName("displaySlide");  
     if (n > slides.length) { slide_index = 1 }  
-    if (n < 1) { slide_index = slides.length }  
+    if (n < 1) { slide_index = slides.length }
+    //looping through the slides  
     for (i = 0; i < slides.length; i++) {  
         slides[i].style.display = "none";  
     }  
