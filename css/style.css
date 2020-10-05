@@ -37,9 +37,31 @@ hr{
     margin:-2.7rem auto;
     border-radius: 23rem;
 }
-.second-circle{
-    width: 15.2%;
+.circle2{
+    width: 15%;
+    height: 9rem;
+    background-color:white;
+    color: white;
+    margin:-2.7rem auto;
     border-radius: 23rem;
+}
+.second-circle{
+    width: 15%;
+    border-radius: 23rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 24.9rem;
+}
+.second-circle2{
+    width: 15.2%;
+    border-radius: 5rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 24.9rem;
+}
+.second-circle3{
+    width: 14.2%;
+    border-radius: 35rem;
     position: absolute;
     top: 1.5rem;
     left: 24.9rem;
